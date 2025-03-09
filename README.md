@@ -52,3 +52,31 @@ Choose level of difficulty: type 'easy' or 'hard': easy
 
 ---
 
+## 🛠️ Customization
+Want to modify the game? Here’s how you can customize it:
+- **Change the number range** by modifying `random.randint(1, 50)` in `game.py`.
+- **Adjust difficulty levels** by changing `EASY_LEVEL_ATTEMPTS` and `HARD_LEVEL_ATTEMPTS`.
+- **Enhance user experience** by adding colors using `colorama`:
+  ```sh
+  pip install colorama
+  ```
+  Then, modify the `print` statements to use colors!
+  ```python
+  from colorama import Fore
+  print(Fore.GREEN + "Your guess is right! The answer is 42.")
+  ```
+
+---
+
+## 🤝 Contributing
+Feel free to **fork** this repository and submit **pull requests** with improvements or bug fixes.
+
+---
+
+## 📜 License
+This project is **open-source** and available under the **MIT License**.
+
+---
+
+### 🔗 [GitHub Repository: AREEB-08](https://github.com/AREEB-08) 🚀
+
